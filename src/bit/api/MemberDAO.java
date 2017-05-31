@@ -14,7 +14,7 @@ public class MemberDAO {//Data Access Object(DAO) : 비지니스 로직 담당
 	 
 	 //Connection을 생성하는 기능
 	 public Connection getConnect(){
-		 String url="jdbc:mysql://127.0.0.1:3306/member";
+		  String url="jdbc:mysql://127.0.0.1:3306/member";
 		  String user="root";
 		  String password="!BitCom0228";
 		  try {
