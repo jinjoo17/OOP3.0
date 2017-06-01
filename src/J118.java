@@ -19,7 +19,7 @@ public class J118 {
 						String line=br.readLine();//라인단위로 읽어들인다.
 						if(line==null)break;//Ctrl+Z
 						System.out.println(line);
-						System.out.print("한글여러자를 입력");
+						System.out.print("한글여러자를 입력:");
 						}
 					}catch (Exception e) {
 						e.printStackTrace();

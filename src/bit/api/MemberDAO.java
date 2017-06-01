@@ -63,7 +63,7 @@ public class MemberDAO {//Data Access Object(DAO) : 비지니스 로직 담당
 			e.printStackTrace();
 		}
 		return cnt;
-	 }//Delete :
+	 }
 	 public int memDelete(String mname){
 		 conn=getConnect();
 		 String SQL="delete from mtbl where mname=?";
