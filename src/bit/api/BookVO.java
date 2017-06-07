@@ -1,6 +1,6 @@
 package bit.api;
 //책--> 제목(title),지은이(name),가격(price),출판사(company)
-public class BookVO {
+public class BookVO implements java.io.Serializable {//표시 ,마크인터페이스. 구현할게없음/J126직렬화
     private String title;
     private String name;
     private int price;
