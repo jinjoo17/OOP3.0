@@ -47,8 +47,7 @@ public class J127 {
 		    cell.setCellValue(memail);
 		    
 		    FileOutputStream fos=new FileOutputStream("member.xls");
-			
-		    wb.write(fos);
+			wb.write(fos);
 		    fos.close();
 		    System.out.println("¿¢¼¿»ý¼º¿Ï·á");
 			
